@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\svbon\Desktop\PSUs\SEPIC\SEPIC.kicad_sch</source>
+    <date>15-Mar-22 13:50:06</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SEPIC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C0">
+      <value>470pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="" part="C_Small_1" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32a4b58f-33b3-4022-9aa6-86af7ac79694</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>3.3uF</value>
+      <footprint>Capacitor_THT:C_Axial_L19.0mm_D8.0mm_P25.00mm_Horizontal</footprint>
+      <libsource lib="" part="C_Small_1" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3200b1f-246d-49a2-ab08-281a37b8a3c9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>470mF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ab55a84-3998-413f-a6a6-dafbe20265fd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f160c47-d981-4114-a4c5-c11a276ec8e7</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acff6eab-32c2-4632-8a5e-b7dc35858a08</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a165e62-c613-4e55-8ad4-9e4441b48b70</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="" part="C_Small_1" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1a26910-ad02-491b-87ba-b3ce2db8ff52</tstamps>
+    </comp>
+    <comp ref="D0">
+      <value>3.3V ZENER</value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02acfea8-8c9e-425c-ab26-4d0580b16d2f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5408</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88516/1n5400.pdf</datasheet>
+      <libsource lib="Diode" part="1N5408" description="1000V 3A General Purpose Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb196cca-ad75-4eb0-9662-866d91a4a784</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5408</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88516/1n5400.pdf</datasheet>
+      <libsource lib="Diode" part="1N5408" description="1000V 3A General Purpose Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1300e7f5-0ad5-4b87-a125-0aa8d6cd97ce</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N5408</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88516/1n5400.pdf</datasheet>
+      <libsource lib="Diode" part="1N5408" description="1000V 3A General Purpose Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d893de9d-ec94-4c42-8f50-ce59d7193d52</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N5408</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88516/1n5400.pdf</datasheet>
+      <libsource lib="Diode" part="1N5408" description="1000V 3A General Purpose Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4ee33f1-50f5-4c88-9253-3411ded5609e</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efc9c660-c4ee-4f2f-be84-251def1ffe6f</tstamps>
+    </comp>
+    <comp ref="H0">
+      <value>5mm SCREW TERMINAL</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="" part="Screw_Terminal_01x04_1" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42972ff3-0a5c-4ae5-9147-ce24b73f4e88</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>5mm SCREW TERMINAL</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="" part="Screw_Terminal_01x04_1" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>befab85e-9093-46eb-b656-c322a425c12f</tstamps>
+    </comp>
+    <comp ref="IC0">
+      <value>NE555P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="" part="NE555P_1" description="Precision Timers, 555 compatible,  PDIP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>865f7a96-f529-44d6-97ae-40f44bfb19e5</tstamps>
+    </comp>
+    <comp ref="L0">
+      <value>1:1 15uH</value>
+      <footprint>Inductor_THT:L_CommonMode_Toroid_Vertical_L43.2mm_W22.9mm_Px17.78mm_Py30.48mm_Bourns_8100</footprint>
+      <libsource lib="Transformer" part="TRANSF1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a5dc8a7-fe6b-4e6a-ad42-870d1b5a6ac1</tstamps>
+    </comp>
+    <comp ref="R0">
+      <value>10KO</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15f9f0da-b70e-44e5-a556-118f15c5b3c9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10KO</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30e33f3c-3f5c-487e-9b4f-dd768b5ea833</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1MO</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>979bb57c-f8ff-4fff-b928-510f4fb31130</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100KO</value>
+      <footprint>Potentiometer_THT:Potentiometer_ACP_CA9-H5_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe2df010-eee5-47f5-b05f-7b4f9967707b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1MO</value>
+      <footprint>Potentiometer_THT:Potentiometer_ACP_CA9-H5_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9390a208-6c80-4f80-b004-333c84f789ec</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10MO</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>defbea15-b1f3-4817-a979-3fcd4ba383c5</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1MO</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ea71221-876a-454d-862a-56caad1592ff</tstamps>
+    </comp>
+    <comp ref="T0">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89f4c4e5-8124-480a-a2f7-7f277eec69d1</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7149ac10-4a37-4ef6-8f53-fc64dde200eb</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>2N7000</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="" part="2N7000_1" description="0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43d722f4-9459-4dbd-8c5d-48d67ef7d6d0</tstamps>
+    </comp>
+    <comp ref="T3">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SEPIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94daac54-7351-4a23-95d6-709d290b80f9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="2N7000_1">
+      <description>0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q?</field>
+        <field name="Value">2N7000_1</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="C_Small_1">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C?</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="NE555P_1">
+      <description>Precision Timers, 555 compatible,  PDIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC0</field>
+        <field name="Value">NE555P</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ne555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TRG" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="RST" type="input"/>
+        <pin num="5" name="CTL" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DCH" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Screw_Terminal_01x04_1">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J?</field>
+        <field name="Value">Screw_Terminal_01x04_1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C?</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">3.3V ZENER</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5408">
+      <description>1000V 3A General Purpose Rectifier Diode, DO-201AD</description>
+      <docs>http://www.vishay.com/docs/88516/1n5400.pdf</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5408</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88516/1n5400.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transformer" part="TRANSF1">
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">TRANSF1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T0</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3906">
+      <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T?</field>
+        <field name="Value">2N3906</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF3205">
+      <description>110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T1</field>
+        <field name="Value">IRF3205</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</field>
+        <field name="Datasheet">http://www.irf.com/product-info/datasheets/data/irf3205.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Transformer">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transformer.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="0V">
+      <node ref="C0" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D0" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="H0" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="H0" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="H1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="H1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="IC0" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="L0" pin="4" pintype="passive"/>
+      <node ref="R3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="T2" pin="1" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="2" name="FB">
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T0" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="T3" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C0-Pad1)">
+      <node ref="C0" pin="1" pintype="passive"/>
+      <node ref="IC0" pin="2" pinfunction="TRG" pintype="input"/>
+      <node ref="IC0" pin="6" pinfunction="THR" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="T0" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L0" pin="3" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="L0" pin="2" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D0-Pad1)">
+      <node ref="D0" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC0" pin="5" pinfunction="CTL" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(IC0-Pad3)">
+      <node ref="IC0" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="T1" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(IC0-Pad7)">
+      <node ref="IC0" pin="7" pinfunction="DCH" pintype="input"/>
+      <node ref="R0" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="T0" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T2" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="T2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="T3" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="13" name="VI">
+      <node ref="H0" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="H0" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="IC0" pin="4" pinfunction="RST" pintype="input"/>
+      <node ref="IC0" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="L0" pin="1" pintype="passive"/>
+      <node ref="R0" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="T3" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="14" name="VO">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="H1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
